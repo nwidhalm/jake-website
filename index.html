@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jake | Pro Snowboarder</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="nav-logo">JAKE</div>
+    <div class="nav-links">
+      <a href="#hero">Home</a>
+      <a href="#skills">Skills</a>
+      <a href="#story">Story</a>
+      <a href="#support">Support</a>
+    </div>
+    <a href="#support" class="nav-cta">Back Jake</a>
+  </nav>
+
+  <!-- Hero Section - Full screen cinematic -->
+  <section id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-particles" id="particles"></div>
+    <div class="hero-content">
+      <div class="hero-tag" data-scroll-reveal>PRO SNOWBOARDER</div>
+      <h1 class="hero-title" data-scroll-reveal>
+        <span class="title-line">BORN TO</span>
+        <span class="title-line title-accent">RIDE</span>
+      </h1>
+      <p class="hero-subtitle" data-scroll-reveal>Pushing the limits of what's possible on snow</p>
+      <div class="hero-scroll-indicator">
+        <div class="scroll-line"></div>
+        <span>SCROLL</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Ticker -->
+  <section id="ticker">
+    <div class="ticker-track">
+      <div class="ticker-content">
+        <span class="ticker-item">BACKSIDE 1260 ★</span>
+        <span class="ticker-item">TRIPLE CORK ★</span>
+        <span class="ticker-item">HALFPIPE SPECIALIST ★</span>
+        <span class="ticker-item">SLOPESTYLE ★</span>
+        <span class="ticker-item">BIG AIR ★</span>
+        <span class="ticker-item">BACKCOUNTRY ★</span>
+        <span class="ticker-item">BACKSIDE 1260 ★</span>
+        <span class="ticker-item">TRIPLE CORK ★</span>
+        <span class="ticker-item">HALFPIPE SPECIALIST ★</span>
+        <span class="ticker-item">SLOPESTYLE ★</span>
+        <span class="ticker-item">BIG AIR ★</span>
+        <span class="ticker-item">BACKCOUNTRY ★</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills / Highlights Section -->
+  <section id="skills">
+    <div class="section-header" data-scroll-reveal>
+      <span class="section-number">01</span>
+      <h2 class="section-title">THE CRAFT</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="skills-grid">
+      <div class="skill-card" data-scroll-reveal>
+        <div class="skill-card-inner">
+          <div class="skill-icon">
+            <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M32 4 L56 20 L56 44 L32 60 L8 44 L8 20 Z"/>
+              <path d="M32 4 L32 60"/>
+              <path d="M8 20 L56 44"/>
+              <path d="M56 20 L8 44"/>
+            </svg>
+          </div>
+          <h3>Halfpipe</h3>
+          <div class="skill-bar"><div class="skill-fill" data-width="95"></div></div>
+          <p>Amplitude and technicality that rivals the best in the world. Consistent 20+ foot airs with complex rotations.</p>
+        </div>
+      </div>
+
+      <div class="skill-card" data-scroll-reveal>
+        <div class="skill-card-inner">
+          <div class="skill-icon">
+            <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="32" cy="32" r="28"/>
+              <path d="M32 4 Q48 32 32 60"/>
+              <path d="M32 4 Q16 32 32 60"/>
+              <line x1="4" y1="32" x2="60" y2="32"/>
+            </svg>
+          </div>
+          <h3>Big Air</h3>
+          <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+          <p>Massive amplitude combined with technical precision. Known for stomping tricks that others won't even attempt.</p>
+        </div>
+      </div>
+
+      <div class="skill-card" data-scroll-reveal>
+        <div class="skill-card-inner">
+          <div class="skill-icon">
+            <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M8 56 L24 8 L40 40 L56 8"/>
+              <circle cx="8" cy="56" r="4"/>
+              <circle cx="56" cy="8" r="4"/>
+            </svg>
+          </div>
+          <h3>Slopestyle</h3>
+          <div class="skill-bar"><div class="skill-fill" data-width="92"></div></div>
+          <p>Creative line choice with seamless flow between features. Rails, jumps, and everything in between — all linked with style.</p>
+        </div>
+      </div>
+
+      <div class="skill-card" data-scroll-reveal>
+        <div class="skill-card-inner">
+          <div class="skill-icon">
+            <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 52 C20 20 44 20 52 52"/>
+              <path d="M20 48 C26 28 38 28 44 48"/>
+              <path d="M28 44 L32 32 L36 44"/>
+            </svg>
+          </div>
+          <h3>Backcountry</h3>
+          <div class="skill-bar"><div class="skill-fill" data-width="88"></div></div>
+          <p>At home in the mountains. Finding natural features and untouched powder lines that produce jaw-dropping footage.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Horizontal Scroll Showcase -->
+  <section id="showcase">
+    <div class="showcase-wrapper">
+      <div class="showcase-header" data-scroll-reveal>
+        <span class="section-number">02</span>
+        <h2 class="section-title">HIGHLIGHTS</h2>
+      </div>
+      <div class="showcase-track" id="showcaseTrack">
+        <div class="showcase-card">
+          <div class="showcase-img" style="background: linear-gradient(135deg, #1a1a2e, #16213e);">
+            <div class="showcase-img-placeholder">📸 Competition Photo</div>
+          </div>
+          <div class="showcase-info">
+            <span class="showcase-date">2025 Season</span>
+            <h3>Regional Championships — 1st Place</h3>
+          </div>
+        </div>
+        <div class="showcase-card">
+          <div class="showcase-img" style="background: linear-gradient(135deg, #0f3460, #533483);">
+            <div class="showcase-img-placeholder">📸 Action Shot</div>
+          </div>
+          <div class="showcase-info">
+            <span class="showcase-date">2025 Season</span>
+            <h3>Landed First Backside Triple Cork</h3>
+          </div>
+        </div>
+        <div class="showcase-card">
+          <div class="showcase-img" style="background: linear-gradient(135deg, #533483, #e94560);">
+            <div class="showcase-img-placeholder">📸 Backcountry Shot</div>
+          </div>
+          <div class="showcase-info">
+            <span class="showcase-date">2024 Season</span>
+            <h3>Alaska Backcountry Film Segment</h3>
+          </div>
+        </div>
+        <div class="showcase-card">
+          <div class="showcase-img" style="background: linear-gradient(135deg, #e94560, #1a1a2e);">
+            <div class="showcase-img-placeholder">📸 Podium Photo</div>
+          </div>
+          <div class="showcase-info">
+            <span class="showcase-date">2024 Season</span>
+            <h3>National Open — Top 5 Finish</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Story Section - Parallax -->
+  <section id="story">
+    <div class="section-header" data-scroll-reveal>
+      <span class="section-number">03</span>
+      <h2 class="section-title">THE STORY</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="story-container">
+      <div class="story-timeline">
+        <div class="timeline-item" data-scroll-reveal>
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <span class="timeline-year">THE BEGINNING</span>
+            <h3>Where It All Started</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at erat vitae nibh fermentum gravida. First time strapping in, the feeling was indescribable — this was more than a sport, it was a calling. The mountain became home, the snow became a canvas, and every run was a chance to create something new.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-scroll-reveal>
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <span class="timeline-year">THE GRIND</span>
+            <h3>Years of Dedication</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Every morning before school, every weekend, every spare moment was spent on the mountain. The falls, the injuries, the setbacks — none of it mattered. The obsession with progression drove everything. Slowly, the tricks got bigger, the style got cleaner, and people started to notice.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-scroll-reveal>
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <span class="timeline-year">THE BREAKTHROUGH</span>
+            <h3>Making a Name</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Competition results started rolling in. Footage started circulating. The riding spoke for itself — raw talent combined with an unmatched work ethic. But to get to the next level, the resources need to match the ambition.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-scroll-reveal>
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <span class="timeline-year">THE FUTURE</span>
+            <h3>What's Next</h3>
+            <p>The goal is clear: compete at the highest level, push the boundaries of the sport, and inspire the next generation. With the right coaching and support, the ceiling is limitless. This is just the beginning of something special.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Video / Reel Placeholder -->
+  <section id="reel">
+    <div class="reel-container" data-scroll-reveal>
+      <div class="reel-placeholder">
+        <div class="play-button">
+          <svg viewBox="0 0 64 64" fill="currentColor">
+            <polygon points="24,14 24,50 50,32"/>
+          </svg>
+        </div>
+        <p>HIGHLIGHT REEL COMING SOON</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Support / GoFundMe Section -->
+  <section id="support">
+    <div class="support-bg"></div>
+    <div class="section-header" data-scroll-reveal>
+      <span class="section-number">04</span>
+      <h2 class="section-title">BACK THE MISSION</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="support-content" data-scroll-reveal>
+      <div class="support-text">
+        <h3>Help Jake Get to the Next Level</h3>
+        <p>Raw talent can only take you so far. To compete with the best in the world, Jake needs professional coaching, travel funding for competitions, and equipment to match his ambition. Every dollar goes directly toward making this dream a reality.</p>
+        <div class="support-goals">
+          <div class="goal-item">
+            <div class="goal-icon">🎿</div>
+            <div class="goal-text">
+              <strong>Professional Coaching</strong>
+              <span>Year-round training program with elite coaches</span>
+            </div>
+          </div>
+          <div class="goal-item">
+            <div class="goal-icon">✈️</div>
+            <div class="goal-text">
+              <strong>Competition Travel</strong>
+              <span>Entry fees, travel, and lodging for national events</span>
+            </div>
+          </div>
+          <div class="goal-item">
+            <div class="goal-icon">🏔️</div>
+            <div class="goal-text">
+              <strong>Equipment & Gear</strong>
+              <span>Pro-level boards, bindings, and protective gear</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="support-card">
+        <div class="gofundme-placeholder">
+          <div class="gfm-header">
+            <div class="gfm-logo">GoFundMe</div>
+          </div>
+          <div class="gfm-body">
+            <h4>Send Jake to the Top</h4>
+            <div class="gfm-progress">
+              <div class="gfm-progress-bar">
+                <div class="gfm-progress-fill"></div>
+              </div>
+              <div class="gfm-progress-text">
+                <span class="gfm-raised">$4,250 raised</span>
+                <span class="gfm-goal">of $15,000 goal</span>
+              </div>
+            </div>
+            <div class="gfm-stats">
+              <span>87 donors</span>
+              <span>•</span>
+              <span>Share</span>
+            </div>
+            <a href="#" class="gfm-button">Donate Now</a>
+            <p class="gfm-note">🔗 Placeholder — GoFundMe link will go here</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sponsor CTA -->
+  <section id="sponsors">
+    <div class="sponsors-content" data-scroll-reveal>
+      <h2>INTERESTED IN SPONSORING?</h2>
+      <p>Jake is actively seeking sponsors who believe in raw talent and relentless dedication. Let's build something together.</p>
+      <a href="mailto:placeholder@email.com" class="sponsor-btn">GET IN TOUCH</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">JAKE</div>
+      <div class="footer-social">
+        <a href="#" class="social-link">Instagram</a>
+        <a href="#" class="social-link">YouTube</a>
+        <a href="#" class="social-link">TikTok</a>
+      </div>
+      <p class="footer-copy">&copy; 2026 Jake. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
