@@ -14,9 +14,9 @@
   --color-bg: #000000;
   --color-bg-alt: #0a0a0a;
   --color-surface: #141414;
-  --color-accent: #ff4a1c;
-  --color-text: #ece8e4;
-  --color-text-muted: #706b66;
+  --color-accent: #4da8da;
+  --color-text: #eaeaea;
+  --color-text-muted: #6a7078;
   --font-heading: 'Barlow Condensed', sans-serif;
   --font-body: 'Space Grotesk', sans-serif;
 }
@@ -949,7 +949,7 @@ footer {
 
 .footer-copy {
   font-size: 0.7rem;
-  color: rgba(112, 107, 102, 0.5);
+  color: rgba(106, 112, 120, 0.5);
 }
 
 /* --- Scroll Reveal Animations --- */
